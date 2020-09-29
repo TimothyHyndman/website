@@ -32,11 +32,11 @@ pygmentsuseclasses         = true
   category                 = "categories"
 
 [menu]
-#  [[menu.main]]
-#    name                   = "Blog"
-#    weight                 = -120
-#    identifier             = "blog"
-#    url                    = "blog/"  
+  [[menu.main]]
+    name                   = "CV"
+    weight                 = -120
+    identifier             = "cv"
+    url                    = "CV.pdf"  
 
 [params]
   faviconfile              = "img/icon.jpg"               # from static/
