@@ -39,8 +39,8 @@ pygmentsuseclasses         = true
     url                    = "CV.pdf"  
 
 [params]
-  faviconfile              = "img/icon.jpg"               # from static/
-  avatar                   = "img/icon.jpg"             # path to image in static dir e.g img/avatar.png 
+  faviconfile              = "img/icon-small.jpg"               # from static/
+  avatar                   = "img/icon-small.jpg"             # path to image in static dir e.g img/avatar.png 
   author                   = "Timothy Hyndman"
   description              = []           # appears in the site header when set to a non-empty string
   welcome_head             = ""

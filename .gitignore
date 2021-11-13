@@ -1,1 +1,8 @@
+# Built site
 public/
+
+# Pycharm settings
+.idea
+
+# Hugo files
+.hugo_build.lock
