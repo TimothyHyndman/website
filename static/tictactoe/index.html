@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>tic tac toe</title>
+        <link rel="stylesheet" href="static/css/main.css" />
+        <!-- Import TensorFlow.js -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+        <!-- Import tfjs-vis -->
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis@1.0.2/dist/tfjs-vis.umd.min.js"></script>
+    </head>
+    <body>
+        <script type="module" src="game.js" defer></script>
+        <div class="game_container">
+            <h1>tic tac toe</h1>
+            <div class="board">
+                <div class="square" data-value="0"></div>
+                <div class="square" data-value="1"></div>
+                <div class="square" data-value="2"></div>
+                <div class="square" data-value="3"></div>
+                <div class="square" data-value="4"></div>
+                <div class="square" data-value="5"></div>
+                <div class="square" data-value="6"></div>
+                <div class="square" data-value="7"></div>
+                <div class="square" data-value="8"></div>
+            </div>
+        </div>
+        <div class="game-over">
+            <div class="game-over-text"></div>
+            <button class="restart">Play again</button>
+        </div>
+    </body>
+</html>

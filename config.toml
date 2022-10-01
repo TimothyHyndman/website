@@ -36,7 +36,12 @@ pygmentsuseclasses         = true
     name                   = "CV"
     weight                 = -120
     identifier             = "cv"
-    url                    = "CV.pdf"  
+    url                    = "CV.pdf"
+  [[menu.main]]
+    name = "tictactoe"
+    weight = -120
+    url = "tictactoe/index.html"
+
 
 [params]
   faviconfile              = "img/icon-small.jpg"               # from static/
