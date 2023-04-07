@@ -1,4 +1,4 @@
-const ai = await tf.loadLayersModel('model.json');
+const ai = await tf.loadLayersModel('/tictactoe/model.json');
 
 // Uncomment this to show the Model Summary in the side of the window
 // tfvis.show.modelSummary({name: "Model Summary"}, ai)
@@ -153,8 +153,8 @@ function check_result() {
         if (xWins || oWins) {
             document.querySelector('.game-over').classList.add('visible')
             document.querySelector('.game-over-text').textContent = xWins
-                ? 'you win'
-                : 'i win'
+                ? 'You win!'
+                : 'I win!'
             console.log(`There was a win, returning true`)
             is_result = true
         }
@@ -165,7 +165,7 @@ function check_result() {
     // Check for draw
     if (game.xState.length + game.oState.length === 9) {
         document.querySelector('.game-over').classList.add('visible')
-        document.querySelector('.game-over-text').textContent = 'draw'
+        document.querySelector('.game-over-text').textContent = 'Draw.'
         console.log(`There was a draw, returning true`)
         is_result = true
     }
@@ -192,10 +192,10 @@ function play_move(target) {
     // Update the game and set the image to show in the square
     if (game.xTurn) {
         game.xState.push(cellValue)
-        image_src = "static/cross.png"
+        image_src = "/tictactoe/static/cross.png"
     } else {
         game.oState.push(cellValue)
-        image_src = "static/circle.png"
+        image_src = "/tictactoe/static/circle.png"
     }
     game.xTurn = !game.xTurn
 

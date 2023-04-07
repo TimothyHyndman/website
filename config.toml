@@ -37,10 +37,6 @@ pygmentsuseclasses         = true
     weight                 = -120
     identifier             = "cv"
     url                    = "CV.pdf"
-  [[menu.main]]
-    name = "tictactoe"
-    weight = -120
-    url = "tictactoe/index.html"
 
 
 [params]
@@ -77,3 +73,6 @@ pygmentsuseclasses         = true
   # px500                    = "//px500"
   # instagram                = "//instagram.com/you"
   include_rss              = false                          # include RSS <link> tag in <head> and show RSS icon
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
